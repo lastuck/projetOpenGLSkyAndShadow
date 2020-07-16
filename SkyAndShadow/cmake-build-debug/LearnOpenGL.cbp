@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LearnOpenGL"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\configuration\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Cours_esgi/LearnOpenGL-master - Copie/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STB_IMAGE">
+				<Option output="C:/Cours_esgi/LearnOpenGL-master - Copie/cmake-build-debug/STB_IMAGE.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Cours_esgi/LearnOpenGL-master - Copie/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Cours_esgi/LearnOpenGL-master - Copie/cmake-build-debug/configuration"/>
+					<Add directory="C:/Cours_esgi/LearnOpenGL-master - Copie/includes"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 STB_IMAGE"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STB_IMAGE/fast">
+				<Option output="C:/Cours_esgi/LearnOpenGL-master - Copie/cmake-build-debug/STB_IMAGE.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Cours_esgi/LearnOpenGL-master - Copie/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Cours_esgi/LearnOpenGL-master - Copie/cmake-build-debug/configuration"/>
+					<Add directory="C:/Cours_esgi/LearnOpenGL-master - Copie/includes"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 STB_IMAGE/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLAD">
+				<Option output="C:/Cours_esgi/LearnOpenGL-master - Copie/cmake-build-debug/GLAD.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Cours_esgi/LearnOpenGL-master - Copie/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Cours_esgi/LearnOpenGL-master - Copie/cmake-build-debug/configuration"/>
+					<Add directory="C:/Cours_esgi/LearnOpenGL-master - Copie/includes"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 GLAD"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLAD/fast">
+				<Option output="C:/Cours_esgi/LearnOpenGL-master - Copie/cmake-build-debug/GLAD.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Cours_esgi/LearnOpenGL-master - Copie/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Cours_esgi/LearnOpenGL-master - Copie/cmake-build-debug/configuration"/>
+					<Add directory="C:/Cours_esgi/LearnOpenGL-master - Copie/includes"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 GLAD/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SkyAndShadow__SkyAndShadow">
+				<Option output="C:/Cours_esgi/LearnOpenGL-master - Copie/bin/SkyAndShadow/SkyAndShadow__SkyAndShadow.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Cours_esgi/LearnOpenGL-master - Copie/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Cours_esgi/LearnOpenGL-master - Copie/cmake-build-debug/configuration"/>
+					<Add directory="C:/Cours_esgi/LearnOpenGL-master - Copie/includes"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 SkyAndShadow__SkyAndShadow"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SkyAndShadow__SkyAndShadow/fast">
+				<Option output="C:/Cours_esgi/LearnOpenGL-master - Copie/bin/SkyAndShadow/SkyAndShadow__SkyAndShadow.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Cours_esgi/LearnOpenGL-master - Copie/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Cours_esgi/LearnOpenGL-master - Copie/cmake-build-debug/configuration"/>
+					<Add directory="C:/Cours_esgi/LearnOpenGL-master - Copie/includes"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 SkyAndShadow__SkyAndShadow/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Cours_esgi/LearnOpenGL-master - Copie/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Cours_esgi/LearnOpenGL-master - Copie/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Cours_esgi\LearnOpenGL-master - Copie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Cours_esgi/LearnOpenGL-master - Copie/src/SkyAndShadow/SkyAndShadow/SkyAndShadow.cpp">
+			<Option target="SkyAndShadow__SkyAndShadow"/>
+		</Unit>
+		<Unit filename="C:/Cours_esgi/LearnOpenGL-master - Copie/src/SkyAndShadow/SkyAndShadow/cubemaps.fs">
+			<Option target="SkyAndShadow__SkyAndShadow"/>
+		</Unit>
+		<Unit filename="C:/Cours_esgi/LearnOpenGL-master - Copie/src/SkyAndShadow/SkyAndShadow/cubemaps.vs">
+			<Option target="SkyAndShadow__SkyAndShadow"/>
+		</Unit>
+		<Unit filename="C:/Cours_esgi/LearnOpenGL-master - Copie/src/SkyAndShadow/SkyAndShadow/debug_quad.vs">
+			<Option target="SkyAndShadow__SkyAndShadow"/>
+		</Unit>
+		<Unit filename="C:/Cours_esgi/LearnOpenGL-master - Copie/src/SkyAndShadow/SkyAndShadow/debug_quad_depth.fs">
+			<Option target="SkyAndShadow__SkyAndShadow"/>
+		</Unit>
+		<Unit filename="C:/Cours_esgi/LearnOpenGL-master - Copie/src/SkyAndShadow/SkyAndShadow/shadow_mapping.fs">
+			<Option target="SkyAndShadow__SkyAndShadow"/>
+		</Unit>
+		<Unit filename="C:/Cours_esgi/LearnOpenGL-master - Copie/src/SkyAndShadow/SkyAndShadow/shadow_mapping.vs">
+			<Option target="SkyAndShadow__SkyAndShadow"/>
+		</Unit>
+		<Unit filename="C:/Cours_esgi/LearnOpenGL-master - Copie/src/SkyAndShadow/SkyAndShadow/shadow_mapping_depth.fs">
+			<Option target="SkyAndShadow__SkyAndShadow"/>
+		</Unit>
+		<Unit filename="C:/Cours_esgi/LearnOpenGL-master - Copie/src/SkyAndShadow/SkyAndShadow/shadow_mapping_depth.vs">
+			<Option target="SkyAndShadow__SkyAndShadow"/>
+		</Unit>
+		<Unit filename="C:/Cours_esgi/LearnOpenGL-master - Copie/src/SkyAndShadow/SkyAndShadow/skybox.fs">
+			<Option target="SkyAndShadow__SkyAndShadow"/>
+		</Unit>
+		<Unit filename="C:/Cours_esgi/LearnOpenGL-master - Copie/src/SkyAndShadow/SkyAndShadow/skybox.vs">
+			<Option target="SkyAndShadow__SkyAndShadow"/>
+		</Unit>
+		<Unit filename="C:/Cours_esgi/LearnOpenGL-master - Copie/src/glad.c">
+			<Option target="GLAD"/>
+		</Unit>
+		<Unit filename="C:/Cours_esgi/LearnOpenGL-master - Copie/src/stb_image.cpp">
+			<Option target="STB_IMAGE"/>
+		</Unit>
+		<Unit filename="C:/Cours_esgi/LearnOpenGL-master - Copie/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Cours_esgi/LearnOpenGL-master - Copie/configuration/root_directory.h.in">
+			<Option virtualFolder="CMake Files\configuration\"/>
+		</Unit>
+		<Unit filename="C:/Cours_esgi/LearnOpenGL-master - Copie/configuration/visualstudio.vcxproj.user.in">
+			<Option virtualFolder="CMake Files\configuration\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
