@@ -6,5 +6,5 @@ CXX_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc;-std=c++11 /MDd /Zi /Ob0 /Od /RTC1
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -IC:\Cours_esgi\SkyAndShadow\cmake-build-debug\configuration -IC:\Cours_esgi\SkyAndShadow\includes 
+CXX_INCLUDES = -IC:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\configuration -IC:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\includes 
 

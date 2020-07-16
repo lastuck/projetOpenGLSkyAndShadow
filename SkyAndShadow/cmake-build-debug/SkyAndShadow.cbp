@@ -8,24 +8,24 @@
 		<Option virtualFolders="CMake Files\;CMake Files\configuration\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Cours_esgi/SkyAndShadow/cmake-build-debug"/>
+				<Option working_dir="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="STB_IMAGE">
-				<Option output="C:/Cours_esgi/SkyAndShadow/cmake-build-debug/STB_IMAGE.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Cours_esgi/SkyAndShadow/cmake-build-debug"/>
+				<Option output="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug/STB_IMAGE.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Cours_esgi/SkyAndShadow/cmake-build-debug/configuration"/>
-					<Add directory="C:/Cours_esgi/SkyAndShadow/includes"/>
+					<Add directory="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug/configuration"/>
+					<Add directory="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/includes"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
@@ -35,21 +35,21 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 STB_IMAGE"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 STB_IMAGE"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="STB_IMAGE/fast">
-				<Option output="C:/Cours_esgi/SkyAndShadow/cmake-build-debug/STB_IMAGE.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Cours_esgi/SkyAndShadow/cmake-build-debug"/>
+				<Option output="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug/STB_IMAGE.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Cours_esgi/SkyAndShadow/cmake-build-debug/configuration"/>
-					<Add directory="C:/Cours_esgi/SkyAndShadow/includes"/>
+					<Add directory="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug/configuration"/>
+					<Add directory="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/includes"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
@@ -59,21 +59,21 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 STB_IMAGE/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 STB_IMAGE/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="GLAD">
-				<Option output="C:/Cours_esgi/SkyAndShadow/cmake-build-debug/GLAD.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Cours_esgi/SkyAndShadow/cmake-build-debug"/>
+				<Option output="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug/GLAD.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Cours_esgi/SkyAndShadow/cmake-build-debug/configuration"/>
-					<Add directory="C:/Cours_esgi/SkyAndShadow/includes"/>
+					<Add directory="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug/configuration"/>
+					<Add directory="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/includes"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
@@ -83,21 +83,21 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 GLAD"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 GLAD"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="GLAD/fast">
-				<Option output="C:/Cours_esgi/SkyAndShadow/cmake-build-debug/GLAD.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Cours_esgi/SkyAndShadow/cmake-build-debug"/>
+				<Option output="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug/GLAD.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Cours_esgi/SkyAndShadow/cmake-build-debug/configuration"/>
-					<Add directory="C:/Cours_esgi/SkyAndShadow/includes"/>
+					<Add directory="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug/configuration"/>
+					<Add directory="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/includes"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
@@ -107,21 +107,21 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 GLAD/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 GLAD/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SkyAndShadow__SkyAndShadow">
-				<Option output="C:/Cours_esgi/SkyAndShadow/bin/SkyAndShadow/SkyAndShadow__SkyAndShadow.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Cours_esgi/SkyAndShadow/bin"/>
+				<Option output="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/bin/SkyAndShadow/SkyAndShadow__SkyAndShadow.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Cours_esgi/SkyAndShadow/cmake-build-debug/configuration"/>
-					<Add directory="C:/Cours_esgi/SkyAndShadow/includes"/>
+					<Add directory="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug/configuration"/>
+					<Add directory="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/includes"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
@@ -131,21 +131,21 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 SkyAndShadow__SkyAndShadow"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 SkyAndShadow__SkyAndShadow"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SkyAndShadow__SkyAndShadow/fast">
-				<Option output="C:/Cours_esgi/SkyAndShadow/bin/SkyAndShadow/SkyAndShadow__SkyAndShadow.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Cours_esgi/SkyAndShadow/bin"/>
+				<Option output="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/bin/SkyAndShadow/SkyAndShadow__SkyAndShadow.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Cours_esgi/SkyAndShadow/cmake-build-debug/configuration"/>
-					<Add directory="C:/Cours_esgi/SkyAndShadow/includes"/>
+					<Add directory="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug/configuration"/>
+					<Add directory="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/includes"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
@@ -155,79 +155,67 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 SkyAndShadow__SkyAndShadow/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 SkyAndShadow__SkyAndShadow/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Cours_esgi/SkyAndShadow/cmake-build-debug"/>
+				<Option working_dir="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Cours_esgi/SkyAndShadow/cmake-build-debug"/>
+				<Option working_dir="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Cours_esgi\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Cours_esgi/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/SkyAndShadow.cpp">
+		<Unit filename="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/SkyAndShadow.cpp">
 			<Option target="SkyAndShadow__SkyAndShadow"/>
 		</Unit>
-		<Unit filename="C:/Cours_esgi/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/cubemaps.fs">
+		<Unit filename="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/shadow_mapping.fs">
 			<Option target="SkyAndShadow__SkyAndShadow"/>
 		</Unit>
-		<Unit filename="C:/Cours_esgi/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/cubemaps.vs">
+		<Unit filename="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/shadow_mapping.vs">
 			<Option target="SkyAndShadow__SkyAndShadow"/>
 		</Unit>
-		<Unit filename="C:/Cours_esgi/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/debug_quad.vs">
+		<Unit filename="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/shadow_mapping_depth.fs">
 			<Option target="SkyAndShadow__SkyAndShadow"/>
 		</Unit>
-		<Unit filename="C:/Cours_esgi/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/debug_quad_depth.fs">
+		<Unit filename="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/shadow_mapping_depth.vs">
 			<Option target="SkyAndShadow__SkyAndShadow"/>
 		</Unit>
-		<Unit filename="C:/Cours_esgi/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/shadow_mapping.fs">
+		<Unit filename="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/skybox.fs">
 			<Option target="SkyAndShadow__SkyAndShadow"/>
 		</Unit>
-		<Unit filename="C:/Cours_esgi/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/shadow_mapping.vs">
+		<Unit filename="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/skybox.vs">
 			<Option target="SkyAndShadow__SkyAndShadow"/>
 		</Unit>
-		<Unit filename="C:/Cours_esgi/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/shadow_mapping_depth.fs">
-			<Option target="SkyAndShadow__SkyAndShadow"/>
-		</Unit>
-		<Unit filename="C:/Cours_esgi/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/shadow_mapping_depth.vs">
-			<Option target="SkyAndShadow__SkyAndShadow"/>
-		</Unit>
-		<Unit filename="C:/Cours_esgi/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/skybox.fs">
-			<Option target="SkyAndShadow__SkyAndShadow"/>
-		</Unit>
-		<Unit filename="C:/Cours_esgi/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/skybox.vs">
-			<Option target="SkyAndShadow__SkyAndShadow"/>
-		</Unit>
-		<Unit filename="C:/Cours_esgi/SkyAndShadow/src/glad.c">
+		<Unit filename="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/src/glad.c">
 			<Option target="GLAD"/>
 		</Unit>
-		<Unit filename="C:/Cours_esgi/SkyAndShadow/src/stb_image.cpp">
+		<Unit filename="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/src/stb_image.cpp">
 			<Option target="STB_IMAGE"/>
 		</Unit>
-		<Unit filename="C:/Cours_esgi/SkyAndShadow/CMakeLists.txt">
+		<Unit filename="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Cours_esgi/SkyAndShadow/configuration/root_directory.h.in">
+		<Unit filename="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/configuration/root_directory.h.in">
 			<Option virtualFolder="CMake Files\configuration\"/>
 		</Unit>
-		<Unit filename="C:/Cours_esgi/SkyAndShadow/configuration/visualstudio.vcxproj.user.in">
+		<Unit filename="C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/configuration/visualstudio.vcxproj.user.in">
 			<Option virtualFolder="CMake Files\configuration\"/>
 		</Unit>
 	</Project>

@@ -1,5 +1,5 @@
-C:/Cours_esgi/SkyAndShadow/cmake-build-debug/CMakeFiles/STB_IMAGE.dir
-C:/Cours_esgi/SkyAndShadow/cmake-build-debug/CMakeFiles/GLAD.dir
-C:/Cours_esgi/SkyAndShadow/cmake-build-debug/CMakeFiles/SkyAndShadow__SkyAndShadow.dir
-C:/Cours_esgi/SkyAndShadow/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Cours_esgi/SkyAndShadow/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug/CMakeFiles/STB_IMAGE.dir
+C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug/CMakeFiles/GLAD.dir
+C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug/CMakeFiles/SkyAndShadow__SkyAndShadow.dir
+C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug/CMakeFiles/rebuild_cache.dir

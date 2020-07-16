@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Cours_esgi/SkyAndShadow/src/glad.c" "C:/Cours_esgi/SkyAndShadow/cmake-build-debug/CMakeFiles/GLAD.dir/src/glad.c.obj"
+  "C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/src/glad.c" "C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug/CMakeFiles/GLAD.dir/src/glad.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

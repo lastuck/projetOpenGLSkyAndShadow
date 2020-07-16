@@ -6,5 +6,5 @@ C_FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
 
 C_DEFINES = 
 
-C_INCLUDES = -IC:\Cours_esgi\SkyAndShadow\cmake-build-debug\configuration -IC:\Cours_esgi\SkyAndShadow\includes 
+C_INCLUDES = -IC:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\configuration -IC:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\includes 
 

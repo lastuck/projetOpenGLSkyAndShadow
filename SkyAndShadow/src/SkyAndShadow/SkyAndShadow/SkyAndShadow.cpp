@@ -81,14 +81,10 @@ int main()
     // -----------------------------
     glEnable(GL_DEPTH_TEST);
 
-    // build and compile shaders
-    // -------------------------
-    Shader shader("cubemaps.vs", "cubemaps.fs");
     Shader skyboxShader("skybox.vs", "skybox.fs");
 
     Shader shadowShader("shadow_mapping.vs", "shadow_mapping.fs");
     Shader simpleDepthShader("shadow_mapping_depth.vs", "shadow_mapping_depth.fs");
-    Shader debugDepthQuad("debug_quad.vs", "debug_quad_depth.fs");
 
     glm::vec3 lightPos(1.0f, 4.0f, 2.0f);
 
@@ -211,10 +207,6 @@ int main()
     glReadBuffer(GL_NONE);
     glBindFramebuffer(GL_FRAMEBUFFER, 0);
 
-    // shader configuration
-    // --------------------
-    shader.use();
-    shader.setInt("texture1", 0);
 
     skyboxShader.use();
     skyboxShader.setInt("skybox", 0);
@@ -222,8 +214,6 @@ int main()
     shadowShader.use();
     shadowShader.setInt("diffuseTexture", 0);
     shadowShader.setInt("shadowMap", 1);
-    debugDepthQuad.use();
-    debugDepthQuad.setInt("depthMap", 0);
 
     // render loop
     // -----------
@@ -277,18 +267,9 @@ int main()
         glActiveTexture(GL_TEXTURE1);
         glBindTexture(GL_TEXTURE_2D, depthMap);
         renderScene(shadowShader);
-
-        debugDepthQuad.use();
-        debugDepthQuad.setFloat("near_plane", near_plane);
-        debugDepthQuad.setFloat("far_plane", far_plane);
+        
         glActiveTexture(GL_TEXTURE0);
         glBindTexture(GL_TEXTURE_2D, depthMap);
-
-        shader.use();
-        glm::mat4 model = glm::mat4(1.0f);
-        shader.setMat4("model", model);
-        shader.setMat4("view", view);
-        shader.setMat4("projection", projection);
 
         glDepthFunc(GL_LEQUAL);
         skyboxShader.use();

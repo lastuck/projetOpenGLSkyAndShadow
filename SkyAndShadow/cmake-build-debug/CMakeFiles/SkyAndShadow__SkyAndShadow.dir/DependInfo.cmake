@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Cours_esgi/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/SkyAndShadow.cpp" "C:/Cours_esgi/SkyAndShadow/cmake-build-debug/CMakeFiles/SkyAndShadow__SkyAndShadow.dir/src/SkyAndShadow/SkyAndShadow/SkyAndShadow.cpp.obj"
+  "C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/src/SkyAndShadow/SkyAndShadow/SkyAndShadow.cpp" "C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug/CMakeFiles/SkyAndShadow__SkyAndShadow.dir/src/SkyAndShadow/SkyAndShadow/SkyAndShadow.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
@@ -16,8 +16,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Cours_esgi/SkyAndShadow/cmake-build-debug/CMakeFiles/STB_IMAGE.dir/DependInfo.cmake"
-  "C:/Cours_esgi/SkyAndShadow/cmake-build-debug/CMakeFiles/GLAD.dir/DependInfo.cmake"
+  "C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug/CMakeFiles/STB_IMAGE.dir/DependInfo.cmake"
+  "C:/Cours_esgi/ProjetSkyAndShadow/SkyAndShadow/cmake-build-debug/CMakeFiles/GLAD.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -44,10 +44,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Cours_esgi\SkyAndShadow
+CMAKE_SOURCE_DIR = C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Cours_esgi\SkyAndShadow\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\GLAD.dir\depend.make
@@ -60,21 +60,21 @@ include CMakeFiles\GLAD.dir\flags.make
 
 CMakeFiles\GLAD.dir\src\glad.c.obj: CMakeFiles\GLAD.dir\flags.make
 CMakeFiles\GLAD.dir\src\glad.c.obj: ..\src\glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Cours_esgi\SkyAndShadow\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/GLAD.dir/src/glad.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/GLAD.dir/src/glad.c.obj"
 	C:\PROGRA~2\MICROS~4\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\GLAD.dir\src\glad.c.obj /FdCMakeFiles\GLAD.dir\GLAD.pdb /FS -c C:\Cours_esgi\SkyAndShadow\src\glad.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\GLAD.dir\src\glad.c.obj /FdCMakeFiles\GLAD.dir\GLAD.pdb /FS -c C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\src\glad.c
 <<
 
 CMakeFiles\GLAD.dir\src\glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLAD.dir/src/glad.c.i"
 	C:\PROGRA~2\MICROS~4\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\cl.exe > CMakeFiles\GLAD.dir\src\glad.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Cours_esgi\SkyAndShadow\src\glad.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\src\glad.c
 <<
 
 CMakeFiles\GLAD.dir\src\glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLAD.dir/src/glad.c.s"
 	C:\PROGRA~2\MICROS~4\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\GLAD.dir\src\glad.c.s /c C:\Cours_esgi\SkyAndShadow\src\glad.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\GLAD.dir\src\glad.c.s /c C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\src\glad.c
 <<
 
 # Object files for target GLAD
@@ -87,7 +87,7 @@ GLAD_EXTERNAL_OBJECTS =
 GLAD.lib: CMakeFiles\GLAD.dir\src\glad.c.obj
 GLAD.lib: CMakeFiles\GLAD.dir\build.make
 GLAD.lib: CMakeFiles\GLAD.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Cours_esgi\SkyAndShadow\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library GLAD.lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library GLAD.lib"
 	$(CMAKE_COMMAND) -P CMakeFiles\GLAD.dir\cmake_clean_target.cmake
 	C:\PROGRA~2\MICROS~4\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\link.exe /lib /nologo /machine:x64 /out:GLAD.lib @CMakeFiles\GLAD.dir\objects1.rsp 
 
@@ -101,6 +101,6 @@ CMakeFiles\GLAD.dir\clean:
 .PHONY : CMakeFiles\GLAD.dir\clean
 
 CMakeFiles\GLAD.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Cours_esgi\SkyAndShadow C:\Cours_esgi\SkyAndShadow C:\Cours_esgi\SkyAndShadow\cmake-build-debug C:\Cours_esgi\SkyAndShadow\cmake-build-debug C:\Cours_esgi\SkyAndShadow\cmake-build-debug\CMakeFiles\GLAD.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\CMakeFiles\GLAD.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\GLAD.dir\depend
 

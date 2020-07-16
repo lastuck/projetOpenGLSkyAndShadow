@@ -44,10 +44,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Cours_esgi\SkyAndShadow
+CMAKE_SOURCE_DIR = C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Cours_esgi\SkyAndShadow\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\STB_IMAGE.dir\depend.make
@@ -60,21 +60,21 @@ include CMakeFiles\STB_IMAGE.dir\flags.make
 
 CMakeFiles\STB_IMAGE.dir\src\stb_image.cpp.obj: CMakeFiles\STB_IMAGE.dir\flags.make
 CMakeFiles\STB_IMAGE.dir\src\stb_image.cpp.obj: ..\src\stb_image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Cours_esgi\SkyAndShadow\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/STB_IMAGE.dir/src/stb_image.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/STB_IMAGE.dir/src/stb_image.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\STB_IMAGE.dir\src\stb_image.cpp.obj /FdCMakeFiles\STB_IMAGE.dir\STB_IMAGE.pdb /FS -c C:\Cours_esgi\SkyAndShadow\src\stb_image.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\STB_IMAGE.dir\src\stb_image.cpp.obj /FdCMakeFiles\STB_IMAGE.dir\STB_IMAGE.pdb /FS -c C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\src\stb_image.cpp
 <<
 
 CMakeFiles\STB_IMAGE.dir\src\stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STB_IMAGE.dir/src/stb_image.cpp.i"
 	C:\PROGRA~2\MICROS~4\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\cl.exe > CMakeFiles\STB_IMAGE.dir\src\stb_image.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Cours_esgi\SkyAndShadow\src\stb_image.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\src\stb_image.cpp
 <<
 
 CMakeFiles\STB_IMAGE.dir\src\stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STB_IMAGE.dir/src/stb_image.cpp.s"
 	C:\PROGRA~2\MICROS~4\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\STB_IMAGE.dir\src\stb_image.cpp.s /c C:\Cours_esgi\SkyAndShadow\src\stb_image.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\STB_IMAGE.dir\src\stb_image.cpp.s /c C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\src\stb_image.cpp
 <<
 
 # Object files for target STB_IMAGE
@@ -87,7 +87,7 @@ STB_IMAGE_EXTERNAL_OBJECTS =
 STB_IMAGE.lib: CMakeFiles\STB_IMAGE.dir\src\stb_image.cpp.obj
 STB_IMAGE.lib: CMakeFiles\STB_IMAGE.dir\build.make
 STB_IMAGE.lib: CMakeFiles\STB_IMAGE.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Cours_esgi\SkyAndShadow\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library STB_IMAGE.lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library STB_IMAGE.lib"
 	$(CMAKE_COMMAND) -P CMakeFiles\STB_IMAGE.dir\cmake_clean_target.cmake
 	C:\PROGRA~2\MICROS~4\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\link.exe /lib /nologo /machine:x64 /out:STB_IMAGE.lib @CMakeFiles\STB_IMAGE.dir\objects1.rsp 
 
@@ -101,6 +101,6 @@ CMakeFiles\STB_IMAGE.dir\clean:
 .PHONY : CMakeFiles\STB_IMAGE.dir\clean
 
 CMakeFiles\STB_IMAGE.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Cours_esgi\SkyAndShadow C:\Cours_esgi\SkyAndShadow C:\Cours_esgi\SkyAndShadow\cmake-build-debug C:\Cours_esgi\SkyAndShadow\cmake-build-debug C:\Cours_esgi\SkyAndShadow\cmake-build-debug\CMakeFiles\STB_IMAGE.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug C:\Cours_esgi\ProjetSkyAndShadow\SkyAndShadow\cmake-build-debug\CMakeFiles\STB_IMAGE.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\STB_IMAGE.dir\depend
 
